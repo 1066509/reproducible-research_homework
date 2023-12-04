@@ -22,10 +22,9 @@ c) These changes have been made in the 'random_walk.R' file, seen in the reprodu
 d) Images of the latest commit made to this file:
 
 
-     <img src="https://github.com/amccarthykerrigan/reproducible-research_homework/blob/aced320a973bb0fe7850b3144bb01b905a31066f/Q4d_Latest_commit_1.png" width="600" height="500">
-
-
-   
+  <p>
+     <img src="https://github.com/amccarthykerrigan/reproducible-research_homework/blob/aced320a973bb0fe7850b3144bb01b905a31066f/Q4d_Latest_commit_1.png">
+  </p> 
     
 
 
