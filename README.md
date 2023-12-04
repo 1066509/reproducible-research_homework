@@ -2,12 +2,12 @@
 
 \# INSERT ANSWERS HERE #
 
-Question 1, 2 and 3 - link to logistic_growth repository:
+**Question 1, 2 and 3** - link to logistic_growth repository:
 
 
 
 
-Question 4:
+**Question 4:**
 
 a) The x and y coordinates appear to show the direction of movement. The colour of the line shows at what point in time the person walked in that direction. The line itself shows the progression of the walk through space.
 <br>
@@ -17,11 +17,17 @@ In the second graph, within the first 100 minutes, the person moves from the app
 
 b) A random seed specifies the start number for generating a set of random numbers. The seed value is the base value used by a random generator to ouput random numbers. We can use the same seed value to generate the same random numbers multiple times over - the random numbers can be reproduced. This can be used to create repeatable data sets.
 
-c) These changes have been made in the 'random_walk.R' file, seen in the repository.
+c) These changes have been made in the 'random_walk.R' file, seen in the reproducible_research_homework repository.
 
 d) Images of the latest commit made to this file:
-![Image 1 of latest commit for random_walk.R file] https://github.com/amccarthykerrigan/reproducible-research_homework/blob/09aaa0753f2e14038b897400924d1451da2ff91a/Q4d_Latest_commit_1.png
-![Image 2 of latest commit for random_walk.R file] https://github.com/amccarthykerrigan/reproducible-research_homework/blob/09aaa0753f2e14038b897400924d1451da2ff91a/Q4d_Latest_commit_2.png
+
+    ![Image 1 of latest commit for random_walk.R file] <img src="./Q4d_Latest_commit_1.png">
+
+    ![Image 2 of latest commit for random_walk.R file] <img src="./Q4d_Latest_commit_2.png">
+
+
+**Question 5:**
+
 
 
 
