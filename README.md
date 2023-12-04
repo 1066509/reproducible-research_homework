@@ -20,15 +20,13 @@ b) A random seed specifies the start number for generating a set of random numbe
 c) These changes have been made in the 'random_walk.R' file, seen in the reproducible_research_homework repository.
 
 d) Images of the latest commit made to this file:
-    
-    
-    <p align="center">
-     <img src="https://github.com/amccarthykerrigan/reproducible-research_homework/blob/c99cb88c730df58879da721f79058b7216dc95c3/Q4d_Latest_commit_1.png" width="600" height="500">
+
+  <p align="center">
+     <img src="https://github.com/amccarthykerrigan/reproducible-research_homework/blob/aced320a973bb0fe7850b3144bb01b905a31066f/Q4d_Latest_commit_1.png" width="600" height="500">
   </p>
 
-    ![Image 2 of latest commit for random_walk.R file] <img src="./Q4d_Latest_commit_2.png">
+   
     
-    https://github.com/amccarthykerrigan/reproducible-research_homework/blob/c99cb88c730df58879da721f79058b7216dc95c3/Q4d_Latest_commit_2.png
 
 
 **Question 5:**
