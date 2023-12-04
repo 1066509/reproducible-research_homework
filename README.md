@@ -22,8 +22,12 @@ c) These changes have been made in the 'random_walk.R' file, seen in the reprodu
 d) Images of the latest commit made to this file:
 
     ![Image 1 of latest commit for random_walk.R file] <img src="./Q4d_Latest_commit_1.png">
+    
+    https://github.com/amccarthykerrigan/reproducible-research_homework/blob/c99cb88c730df58879da721f79058b7216dc95c3/Q4d_Latest_commit_1.png
 
     ![Image 2 of latest commit for random_walk.R file] <img src="./Q4d_Latest_commit_2.png">
+    
+    https://github.com/amccarthykerrigan/reproducible-research_homework/blob/c99cb88c730df58879da721f79058b7216dc95c3/Q4d_Latest_commit_2.png
 
 
 **Question 5:**
