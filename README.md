@@ -19,7 +19,7 @@ b) A random seed specifies the start number for generating a set of random numbe
 
 c) These changes have been made in the 'random_walk.R' file, seen in the reproducible_research_homework repository.
 
-d) Images of the latest commit made to this file:
+d) Images of the latest commit made to the 'random_walk.R' file:
 
   <p>
      <img src="https://github.com/amccarthykerrigan/reproducible-research_homework/blob/aced320a973bb0fe7850b3144bb01b905a31066f/Q4d_Latest_commit_1.png">
