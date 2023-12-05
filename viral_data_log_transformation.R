@@ -30,8 +30,8 @@ ggplot(aes(x = log_Genome_length_kb, y = log_Virion_volume_nm3), data = viral_da
   geom_point() +
   geom_smooth(method = "lm", se = TRUE, colour = 'blue') +
   ggtitle("Virion volume and genome length relationship in dsDNA viruses") +
-  xlab("log [Genome length (kb)]") +
-  ylab("log [Virion volume (nm3)]") +
+  xlab("log10 [Genome length (kb)]") +
+  ylab("log10 [Virion volume (nm3)]") +
   theme_bw()
 
 
