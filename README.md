@@ -34,7 +34,7 @@ d) Images of the latest commit made to the 'random_walk.R' file:
 
 a) The table of data for dsDNA viruses has 33 rows and 13 columns.
 
-b) You can use a log transformation to fit a linear model to the data. I have done this and plotted it in the file
+b) You can use a log transformation to fit a linear model to the data. I have done this and plotted it in the file 'viral_data_log_transformation.R' in the reproducible_research_homework repository.
 
 c) In order to find the exponent (α) and scaling factor (β) for the relationship between virion volume (V) and genome length (L), we need to take the natural logarithm of the equation.
 <br>
@@ -44,7 +44,9 @@ Natural log equation: ln(V) = ln(β) + αln(L)
 
     This now shows a linear relationship between V and L, where the slope is α and the intercept is ln(β).
 
-    Therefore to find α and β, we can do a linear regression on the log-transformed data. I have back transformed the output value for the intercept as this value is ln(β) and I need to find only β.
+    Therefore to find α and β, we can do a linear   regression on the log-transformed data. I have  back transformed the output value for the intercept as this value is ln(β) and I need to find only β.
+    
+    Code for this linear regression can be found in the file ;viral_data_log_transformation.R' in the reproducible_research_homework repository.
 
     α = 1.52 (p = 6.44e-10)
     <br>
@@ -54,7 +56,7 @@ Natural log equation: ln(V) = ln(β) + αln(L)
 
     I did find the same values as in Table 2 of the paper. They found that α = 1.52 and β = 1182.
 
-
+d) 
 
 
 ## Instructions
