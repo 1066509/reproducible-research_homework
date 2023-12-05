@@ -32,25 +32,29 @@ d) Images of the latest commit made to the 'random_walk.R' file:
 
 **Question 5:**
 
-a) The table has 33 rows and 13 columns.
+a) The table of data for dsDNA viruses has 33 rows and 13 columns.
 
-b) You can use a log transformation to fit a linear model to the data.  
-c) In order to find the scaling factor (β) and exponent (α) for the relationship between virion volume (V) and genome length (L), we need to take the natural logarithm of the equation.
+b) You can use a log transformation to fit a linear model to the data. I have done this and plotted it in the file
+
+c) In order to find the exponent (α) and scaling factor (β) for the relationship between virion volume (V) and genome length (L), we need to take the natural logarithm of the equation.
 <br>
 Initial equation: V = βL^α
 <br>
 Natural log equation: ln(V) = ln(β) + αln(L)
 
-There is now a linear relationship between V and L, where the slope is α and the intercept is ln(β).
+    This now shows a linear relationship between V and L, where the slope is α and the intercept is ln(β).
 
-Therefore to find α and β, we can do a linear regression on the log-transformed data.
+    Therefore to find α and β, we can do a linear regression on the log-transformed data. I have back transformed the output value for the intercept as this value is ln(β) and I need to find only β.
 
-α = 1.52
-β = 1181.68
+    α = 1.52 (p = 6.44e-10)
+    <br>
+    β = 1181.68 (p = 2.28e-10)
 
-From the linear regression, the p value for the intercept value is 2.28e-10 and the p value for the slope is 6.44e-10. Since both p values are <0.05, both the intercept and slope values are statistically significant. The p values are also significant at the level of p<0.01.
+    From the linear regression, the p value for the slope (α) is 6.44e-10 and the p value for the intercept value (β) is 2.28e-10. Since for both, P<0.05, both the intercept and slope values are statistically significant, meaning there is a strong positive correlation between genome size and virion volume. The p values are significant at the level of P<0.001.
 
-Compared with the values in Table 2 of the paper, ...
+    I did find the same values as in Table 2 of the paper. They found that α = 1.52 and β = 1182.
+
+
 
 
 ## Instructions
