@@ -32,9 +32,25 @@ d) Images of the latest commit made to the 'random_walk.R' file:
 
 **Question 5:**
 
-a) The table has 33 rows and 13 columns
+a) The table has 33 rows and 13 columns.
 
-b) 
+b) You can use a log transformation to fit a linear model to the data.  
+c) In order to find the scaling factor (β) and exponent (α) for the relationship between virion volume (V) and genome length (L), we need to take the natural logarithm of the equation.
+<br>
+Initial equation: V = βL^α
+<br>
+Natural log equation: ln(V) = ln(β) + αln(L)
+
+There is now a linear relationship between V and L, where the slope is α and the intercept is ln(β).
+
+Therefore to find α and β, we can do a linear regression on the log-transformed data.
+
+α = 1.52
+β = 1181.68
+
+From the linear regression, the p value for the intercept value is 2.28e-10 and the p value for the slope is 6.44e-10. Since both p values are <0.05, both the intercept and slope values are statistically significant. The p values are also significant at the level of p<0.01.
+
+Compared with the values in Table 2 of the paper, ...
 
 
 ## Instructions
