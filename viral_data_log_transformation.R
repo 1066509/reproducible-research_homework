@@ -15,6 +15,7 @@ viral_data
 #Initial plot of the data (not transformed)
 ggplot(aes(x = Genome_length_kb, y = Virion_volume_nm3), data = viral_data) +
   geom_point() +
+  ggtitle("Virion volume and genome length relationship in dsDNA viruses") +
   xlab("Genome length (kb)") +
   ylab("Virion volume (nm3)") +
   theme_bw()
@@ -28,10 +29,10 @@ viral_data$log_Virion_volume_nm3 <- log10(viral_data$Virion_volume_nm3)
 ggplot(aes(x = log_Genome_length_kb, y = log_Virion_volume_nm3), data = viral_data) +
   geom_point() +
   geom_smooth(method = "lm", se = TRUE, colour = 'blue') +
-  xlab("Genome length (log10 kb)") +
-  ylab("Virion volume (log10 nm3)") +
+  ggtitle("Virion volume and genome length relationship in dsDNA viruses") +
+  xlab("log [Genome length (kb)]") +
+  ylab("log [Virion volume (nm3)]") +
   theme_bw()
-
 
 
 ## Finding the exponent (α) and scaling factor (β) in the equation describing the relationship between V and L 
