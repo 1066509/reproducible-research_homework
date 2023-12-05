@@ -39,7 +39,7 @@ ggplot(aes(x = log_Genome_length_kb, y = log_Virion_volume_nm3), data = viral_da
 
 #The relationship is modelled by allometric equation: V = βL^α
 
-#When we take the natural log of the equation, this gives us a linear relationship between the variables
+#When we log-transform the equation, it gives us a linear relationship between the variables
 #We can perform a linear regression of this equation to find α and β
 
 
@@ -49,10 +49,10 @@ linear_regression <- lm(log_Virion_volume_nm3 ~ log_Genome_length_kb, data = vir
 #Summary of the linear regression model
 summary(linear_regression)
 
-#Intercept (ln(β)) is 3.0725 We will need to back-transform this value to get β.
+#Intercept (log(β)) is 3.0725. We will need to back-transform this value to get β.
 #Slope (α) is 1.5152.
 
-#Back transformation of ln(β)
+#Back transformation of log(β)
 beta <- 10^(3.0725)
 beta
 
