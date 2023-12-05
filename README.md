@@ -55,7 +55,7 @@ From the linear regression, the p value for the slope (α) is 6.44e-10 and the p
 
 I did find the same values as in Table 2 of the paper. They found that α = 1.52 and β = 1182.
 
-**d)** 
+**d)** The code written for this graph can be seen in the 'reproducing_figure_Q5d.R' file in the repository.
 
 **e)** Estimated volume of a 300kb dsDNA virus:
 
