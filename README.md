@@ -17,9 +17,9 @@ In the second graph, within the first 100 minutes, the person moves from the app
 
 b) A random seed specifies the start number for generating a set of random numbers. The seed value is the base value used by a random generator to ouput random numbers. We can use the same seed value to generate the same random numbers multiple times over - the random numbers can be reproduced. This can be used to create repeatable data sets.
 
-c) These changes have been made in the 'random_walk.R' file, seen in the reproducible_research_homework repository.
+c) I have have a reproducible simulation of Brownian motion, seen in the 'random_walk.R' file, in the reproducible_research_homework repository.
 
-d) Images of the latest commit made to the 'random_walk.R' file:
+d) Images of the latest commit made to the 'random_walk.R' file, showing how I have changed the script to make the simulation reproducible:
 
   <p>
      <img src="https://github.com/amccarthykerrigan/reproducible-research_homework/blob/aced320a973bb0fe7850b3144bb01b905a31066f/Q4d_Latest_commit_1.png">
