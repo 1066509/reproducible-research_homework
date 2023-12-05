@@ -9,17 +9,17 @@
 
 **Question 4:**
 
-a) The x and y coordinates appear to show the direction of movement. The colour of the line shows at what point in time the person walked in that direction. The line itself shows the progression of the walk through space.
-<br>
-In the first graph, we observe that within the first 100 minutes of the random walk, the person moves from the approximate unit (-0.5, -0.1)
-In the second graph, within the first 100 minutes, the person moves from the approximate coordinate (0.8, 0.25)
+**a)** The x and y coordinates appear to show the direction of movement in space. The colour of the line shows at what point in time the organism/object walked in that direction, and the time frame runs from 0-500. The line itself shows the progression of the walk through space.
 
+In the first graph, I can observe that, overall, the organism/object moves from the approximate coordinate (0.2, 0.1) to the coordinate (0.2, -3.2) within the 500 time units. This means that the organism/object has overall moved down in the space by 3.3 units, but has not moved any direction along the horizontal plane from where it begun the walk. Since the line has been coloured using a gradient, it is hard to say exactly which coordinates are covered in each of the 100 minute intervals shown in the legend. 
 
-b) A random seed specifies the start number for generating a set of random numbers. The seed value is the base value used by a random generator to ouput random numbers. We can use the same seed value to generate the same random numbers multiple times over - the random numbers can be reproduced. This can be used to create repeatable data sets.
+In the second graph, the organism/object moves from the approximate coordinate (0, 0) to coordinate (2.75, -9) within the 500 time units. This means that the organism/object has moved overall down in the space by 9 units and right by 2.75 units from where it begun the walk.
 
-c) I have have a reproducible simulation of Brownian motion, seen in the 'random_walk.R' file, in the reproducible_research_homework repository.
+**b)** A random seed specifies the start number for generating a set of random numbers. The seed value is the base value used by a random generator to ouput random numbers. We can use the same seed value to generate the same random numbers multiple times over - the random numbers can be reproduced. This can be used to create repeatable data sets.
 
-d) Images of the latest commit made to the 'random_walk.R' file, showing how I have changed the script to make the simulation reproducible:
+**c)** I have have a reproducible simulation of Brownian motion, seen in the 'random_walk.R' file, in the reproducible_research_homework repository.
+
+**d)** Images of the latest commit made to the 'random_walk.R' file, showing how I have changed the script to make the simulation reproducible:
 
   <p>
      <img src="https://github.com/amccarthykerrigan/reproducible-research_homework/blob/aced320a973bb0fe7850b3144bb01b905a31066f/Q4d_Latest_commit_1.png">
@@ -32,11 +32,11 @@ d) Images of the latest commit made to the 'random_walk.R' file, showing how I h
 
 **Question 5:**
 
-a) The table of data for dsDNA viruses has 33 rows and 13 columns.
+**a)** The table of data for dsDNA viruses has 33 rows and 13 columns.
 
-b) You can use a log transformation to fit a linear model to the data. I have done this and plotted it in the file 'viral_data_log_transformation.R' in the reproducible_research_homework repository.
+**b)** You can use a log transformation to fit a linear model to the data. I have done this and plotted it in the file 'viral_data_log_transformation.R' in the reproducible_research_homework repository.
 
-c) In order to find the exponent (α) and scaling factor (β) for the relationship between virion volume (V) and genome length (L), we need to log-transform the equation, to linearise the relationship.
+**c)** In order to find the exponent (α) and scaling factor (β) for the relationship between virion volume (V) and genome length (L), we need to log-transform the equation, to linearise the relationship.
 <br>
 Initial equation: V = βL^α
 <br>
@@ -55,9 +55,9 @@ From the linear regression, the p value for the slope (α) is 6.44e-10 and the p
 
 I did find the same values as in Table 2 of the paper. They found that α = 1.52 and β = 1182.
 
-d) 
+**d)** 
 
-e) Estimated volume of a 300kb dsDNA virus:
+**e)** Estimated volume of a 300kb dsDNA virus:
 
 log(V) = log(β) + αlog(L)
 <br>
