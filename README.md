@@ -32,7 +32,9 @@ d) Images of the latest commit made to the 'random_walk.R' file:
 
 **Question 5:**
 
+a) The table has 33 rows and 13 columns
 
+b) 
 
 
 ## Instructions
