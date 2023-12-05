@@ -70,9 +70,23 @@ V = 10^(6.8377)
 = 6,881,767.57 nm3
 
 
-**Bonus question**
+**Bonus question:**
 
+Reproducibility in science refers to an independent scientist being able to generate the same results as you have, using your data and coding. Replicability refers to an independent scientist being able to generate the same findings as you, but using their own collected data set and coding methods.
 
+Git and GitHub are able to enhance the reproducibility of scientific research because they allow us to store the history of the commits we have made (different versions of the document), since git is a version control system. This means that any mistakes which are made can be retraced, and if you need to access an earlier version of a file, it is possible to retrieve it. It also means that large numbers of researchers can work on copies of the code at the same time, and then when they are ready, they are able to merge the changes into a single main repository. GitHub, which hosts git repositories, also allows researchers from across the field to easily access the code to analyse it, and then run it themselves.
+
+Git and GitHub enhance replicability of scientific research because it allows researchers to easily access and compare results achieved with a given data set and coding method. This means that when it comes to another researcher replicating your research, they can easily observe whether their results have been able to achieve this replication. 
+
+Using sites like protocols.io may also help with reproducibiliy and replicability as they provide a store of the methods and results used for a certain research project, meaning they can be accessed easily by all scientists within a team, for example. Equally, the methods can be kept up to date, which means that there isn't any confusion when replicating/reproducing another scientist's results.
+
+One of the limitations of git and GitHub is that there is a maximum file size which can be uploaded: 50MiB. Files uploaded above this size can limit the performance of GitHub. GitHub will also block files larger than 100MiB. They also strongly recommend keeping repositories under 5GB, as it will begin to impact their infrastructure, which limits the amount of storage in the repository. 
+<br>
+Another limitation is that private repositories have a limited number of collaborators allowed on them, and the number allowed depends on the subscription plan you have with GitHub.
+<br>
+A stable network connection is also required to access and collaborate on the files, since it is cloud-based. Limited connection or a connection with frequent outage could prevent effective use of the platform.
+<br>
+It may also take some time for users new to version control systems to get used to the interface and how to use the platform.
 
 
 ## Instructions
