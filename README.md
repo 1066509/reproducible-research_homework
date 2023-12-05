@@ -41,34 +41,33 @@ c) In order to find the exponent (α) and scaling factor (β) for the relationsh
 Initial equation: V = βL^α
 <br>
 Log equation: log(V) = log(β) + αlog(L)
+This now shows a linear relationship between V and L, where the slope is α and the intercept is log(β).
 
-    This now shows a linear relationship between V and L, where the slope is α and the intercept is log(β).
-
-    Therefore to find α and β, we can do a linear regression on the log-transformed data. I have  back-transformed the output value for the intercept as this value is log(β) and I need to find only β.
+Therefore to find α and β, we can do a linear regression on the log-transformed data. I have  back-transformed the output value for the intercept as this value is log(β) and I need to find only β.
     
-    Code for this linear regression can be found in the file 'viral_data_log_transformation.R' in the reproducible_research_homework repository.
+Code for this linear regression can be found in the file 'viral_data_log_transformation.R' in the reproducible_research_homework repository.
 
-    α = 1.52 (p = 6.44e-10)
-    <br>
-    β = 1181.68 (p = 2.28e-10)
+α = 1.52 (p = 6.44e-10)
+<br>
+β = 1181.68 (p = 2.28e-10)
 
-    From the linear regression, the p value for the slope (α) is 6.44e-10 and the p value for the intercept value (β) is 2.28e-10. Since for both, P<0.05, both the intercept and slope values are statistically significant, meaning there is a strong positive correlation between genome size and virion volume. The p values are significant at the level of P<0.001.
+From the linear regression, the p value for the slope (α) is 6.44e-10 and the p value for the intercept value (β) is 2.28e-10. Since for both, P<0.05, both the intercept and slope values are statistically significant, meaning there is a strong positive correlation between genome size and virion volume. The p values are significant at the level of P<0.001.
 
-    I did find the same values as in Table 2 of the paper. They found that α = 1.52 and β = 1182.
+I did find the same values as in Table 2 of the paper. They found that α = 1.52 and β = 1182.
 
 d) 
 
 e) Estimated volume of a 300kb dsDNA virus:
 
-    log(V) = log(β) + αlog(L)
-    <br>
-    log(V) = log(1181.68) + (1.52 x log(300))
-    <br>
-    log(V) = 3.0725 + (3.7652) = 6.8377
-    <br>
-    V = 10^(6.8377)
-    <br>
-    = 6,881,767.57 nm3
+log(V) = log(β) + αlog(L)
+<br>
+log(V) = log(1181.68) + (1.52 x log(300))
+<br>
+log(V) = 3.0725 + (3.7652) = 6.8377
+<br>
+V = 10^(6.8377)
+<br>
+= 6,881,767.57 nm3
 
 
 
