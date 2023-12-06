@@ -23,3 +23,10 @@ ggplot(aes(x = log_Genome_length_kb, y = log_Virion_volume_nm3), data = viral_da
   theme_bw() +
   theme(axis.title.x = element_text(face = "bold"),
         axis.title.y = element_text(face = "bold"))
+
+
+#Code to record the packages used in these files:
+
+#sink(file = "package-versions2.txt")
+#sessionInfo()
+#sink()
