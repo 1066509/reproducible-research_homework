@@ -1,5 +1,6 @@
 #Script to plot the data of virion volume (V) against genome size (L), and then find the exponent and scaling factor in the allometric  equation describing their relationship
 
+#Load packages
 library(ggplot2)
 
 

@@ -1,9 +1,20 @@
-#install.packages("ggplot2")
-#install.packages("gridExtra")
+#Script to simulate and plot two random walks
 
 #Load packages
-library(ggplot2)
-library(gridExtra)
+if (!require("gridExtra", character.only = TRUE)) {
+  install.packages("gridExtra")
+  library("gridExtra")
+} else {
+  library("gridExtra")
+}
+
+if (!require("ggplot2", character.only = TRUE)) {
+  install.packages("ggplot2")
+  library("ggplot2")
+} else {
+  library("ggplot2")
+}
+
 
 
 #Generate a function to simulate a random walk
