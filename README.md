@@ -4,7 +4,7 @@
 
 **Question 1, 2 and 3** - link to logistic_growth repository:
 <br>
-https://github.com/amccarthykerrigan/logistic_growth.git
+https://github.com/1066509/logistic_growth.git
 
 
 **Question 4:**
@@ -22,11 +22,11 @@ In the second simulated random walk, the organism/object moves from the approxim
 **d)** Images of the latest commit made to the 'random_walk.R' file, showing how I have changed the script to make the simulation reproducible:
 
   <p>
-     <img src="https://github.com/amccarthykerrigan/reproducible-research_homework/blob/aced320a973bb0fe7850b3144bb01b905a31066f/Q4d_Latest_commit_1.png">
+     <img src="https://github.com/1066509/reproducible-research_homework/blob/5964a538d12c025eb5ed0dc77b87bb0474d8bc2b/Q4d_Latest_commit_1.png">
   </p> 
     
   <p>
-     <img src="https://github.com/amccarthykerrigan/reproducible-research_homework/blob/a1129be13c0f0e252e451d4c1705e2e07f9e94b1/Q4d_Latest_commit_2.png">
+     <img src="https://github.com/1066509/reproducible-research_homework/blob/5964a538d12c025eb5ed0dc77b87bb0474d8bc2b/Q4d_Latest_commit_2.png">
   </p>  
 
 
