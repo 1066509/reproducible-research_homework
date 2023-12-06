@@ -15,6 +15,12 @@ In the first graph simulating a random walk, I can observe that, overall, the or
 
 In the second simulated random walk, the organism/object moves from the approximate coordinate (0, 0) to coordinate (2.75, -9) within the 500 time units. This means that the organism/object has moved overall down in the space by 9 units and right by 2.75 units from where it begun the walk.
 
+The graph produced can be seen here:
+
+  <p>
+     <img src="https://github.com/1066509/reproducible-research_homework/blob/feb6be29b22d99826fcf016c90fce5bae2b243d3/random_walk_q4a.png">
+  </p> 
+
 **b)** A random seed specifies the start number for generating a set of random numbers. The seed value is the base value used by a random generator to ouput random numbers. We can use the same seed value to generate the same random numbers multiple times over - the random numbers can be reproduced. This can be used to create repeatable data sets.
 
 **c)** I have created a reproducible simulation of Brownian motion, seen in the 'random_walk.R' file, in the reproducible_research_homework repository.
@@ -35,6 +41,12 @@ In the second simulated random walk, the organism/object moves from the approxim
 **a)** The table of data for dsDNA viruses has 33 rows and 13 columns.
 
 **b)** You can use a log transformation to fit a linear model to the data. I have created code to log-transform the data and plotted the graph in the file 'viral_data_log_transformation.R' in the reproducible_research_homework repository.
+
+The graph is as below:
+
+  <p>
+     <img src="https://github.com/1066509/reproducible-research_homework/blob/9bd7086402f5f848b9449e2acc5d6b9e7aaec851/viral_data_log_transformed_q5b.png">
+  </p>
 
 **c)** In order to find the exponent (α) and scaling factor (β) for the relationship between virion volume (V) and genome length (L), we need to log-transform the equation, to linearise the relationship.
 <br>
@@ -57,6 +69,13 @@ From the linear regression, the p value for the slope (α) is 6.44e-10 and the p
 I did find the same values as in Table 2 of the paper. They found that α = 1.52 and β = 1182.
 
 **d)** The code written to reproduce this figure can be seen in the 'reproducing_figure_Q5d.R' file in the repository.
+
+The graph that I produced is here:
+
+  <p>
+     <img src="https://github.com/1066509/reproducible-research_homework/blob/ad74d8b39e8249aab5a24059f62841ddc69254bb/reproducing_figure_graph_q5d.png">
+  </p>
+
 
 **e)** Estimated volume of a 300kb dsDNA virus:
 
