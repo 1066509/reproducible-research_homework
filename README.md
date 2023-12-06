@@ -3,8 +3,8 @@
 \# INSERT ANSWERS HERE #
 
 **Question 1, 2 and 3** - link to logistic_growth repository:
-
-
+<br>
+https://github.com/amccarthykerrigan/logistic_growth.git
 
 
 **Question 4:**
