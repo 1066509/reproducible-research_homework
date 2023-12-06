@@ -9,7 +9,7 @@ https://github.com/1066509/logistic_growth.git
 
 **Question 4:**
 
-**a)** The x and y coordinates appear to show a position in space. The colour of the line shows at what point in time the organism/object was in a certain position, and the time frame runs from 0-500. Since the colour is a gradient, the line plotted shows movement in a certain direction, following the gradient of the line's colour. The line plotted overall shows the progression of the walk through space.
+**a)** The x and y coordinates show a position in space. The colour of the line shows at what point in time the organism/object was in a certain position, and the time frame runs from 0-500. Since the colour is a gradient, the line plotted shows movement in a certain direction, following the gradient of the line's colour. A darker blue colour represents earlier steps and a lighter blue colour represents later ones. The line plotted overall shows the progression of the walk through space.
 
 In the first graph simulating a random walk, I can observe that, overall, the organism/object moves from the approximate coordinate (0.2, 0.1) to the coordinate (0.2, -3.2) within the 500 time units. This means that the organism/object has overall moved down in the space by 3.3 units, but has not moved any direction along the horizontal plane of the graph from where it begun the walk. Since the line has been coloured using a gradient, it is hard to say exactly which coordinates are covered in each of the 100 minute intervals shown in the legend, but we are able to get an overall picture of the direction of movement through the whole time frame.
 
@@ -23,7 +23,20 @@ The graph produced can be seen here:
 
 **b)** A random seed specifies the start number for generating a set of random numbers. The seed value is the base value used by a random generator to ouput random numbers. We can use the same seed value to generate the same random numbers multiple times over - the random numbers can be reproduced. This can be used to create repeatable data sets.
 
-**c)** I have created a reproducible simulation of Brownian motion, seen in the 'random_walk.R' file, in the reproducible_research_homework repository.
+**c)** I have created a reproducible simulation of Brownian motion, seen in the 'random_walk.R' file, in the reproducible_research_homework repository. This altered code now means that the two random walks that have been output will always be the same however many times the code is run.
+<br>
+I have chosen two different seed values for each graph, so that they produce different walks from each other. However, each graph will produce the same graph as it's own previous versions, each time. I have randomly chosen these seed values.
+
+First random walk: seed = 400
+<br>
+Second random walk: seed = 300
+
+The graphs that I have produced are:
+
+  <p>
+     <img src="https://github.com/1066509/reproducible-research_homework/blob/5ca94d3a3172d3dc4aacd3621ab0932547c48622/random_walk_reproducible_q4c.png">
+  </p> 
+
 
 **d)** Images of the latest commit made to the 'random_walk.R' file, showing how I have changed the script to make the simulation reproducible:
 
