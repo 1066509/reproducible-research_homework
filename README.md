@@ -25,7 +25,7 @@ The graph produced can be seen here:
 
 **c)** I have created a reproducible simulation of Brownian motion, seen in the 'random_walk.R' file, in the reproducible_research_homework repository. This altered code now means that the two random walks that have been output will always be the same however many times the code is run.
 <br>
-I have chosen two different seed values for each graph, so that they produce different walks from each other. However, each graph will produce the same graph as it's own previous versions, each time. I have randomly chosen these seed values.
+I have chosen two different seed values for each graph, so that they produce different walks from each other. However, each graph will produce the same graph as it's own previous versions, each time. I have selected these seed values:
 
 First random walk: seed = 400
 <br>
